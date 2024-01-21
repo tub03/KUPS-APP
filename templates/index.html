@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block title %}Página de Inicio{% endblock %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/layout_index.css') }}">
+{% endblock %}
+
+{% block body %}
+    <main>
+        <header>
+            <h1>KUPS-CA</h1>
+        </header>
+        <!-- Contenido principal de la página de inicio -->
+        <p>Cost Analysis</p>
+    </main>
+{% endblock %}

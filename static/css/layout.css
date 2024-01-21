@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: mediumseagreen; /* Cambia al color de fondo deseado */
+}
+
+main {
+    margin: auto;
+    max-width: 400px; /* Ajusta el ancho del recuadro según tus necesidades */
+    padding: 20px;
+    background-color: #eaeaea; /* Color de fondo del recuadro */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    margin-top: 50px; /* Ajusta el espacio superior según tus necesidades */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Cambia el color al pasar el ratón por encima */
+}
+

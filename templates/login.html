@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block title %}Iniciar Sesión{% endblock %}
+
+{% block body %}
+    <main>
+        <header>
+            <!-- Puedes agregar contenido específico para la cabecera de la página de inicio de sesión si es necesario -->
+            <h1>KUPS-CA</h1>
+        </header>
+        <!-- Contenido principal de la página de inicio de sesión -->
+        <form method="post" action="/login">
+            <label for="username">User:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Pass:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </main>
+{% endblock %}
